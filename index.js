@@ -67,6 +67,6 @@ let messageList =  [
 
 window.onload = function() {
     const quote = Math.floor(Math.random()*16);
-    document.getElementById('text').innerText= messageList[quote].text;
-    document.getElementById('author').innerText = messageList[quote].author;
+    document.getElementById('text').innerText= '"'+messageList[quote].text+'"';
+    document.getElementById('author').innerText = '*** '+messageList[quote].author;
 }
