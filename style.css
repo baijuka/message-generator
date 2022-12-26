@@ -7,6 +7,7 @@
  body {
     background-color: rgb(56, 114, 201);
     color: azure;
+    background-image: linear-gradient(90deg, rgb(0, 81, 255), rgb(98, 97, 138));
  }
 
  h1 {
